@@ -1,6 +1,7 @@
 {
   "users": [
     { "username": "foo"},
-    { "username": "bar", "firstName": "John", "lastName": "Doe", "email": "foo@example.com"}
+    { "username": "bar", "firstName": "John", "lastName": "Doe", "email": "foo@example.com"},
+    { "username": "hoge", "firstName": "Hoge", "lastName": "Joo", "email": "hoge@example.com"}
   ]
 }
