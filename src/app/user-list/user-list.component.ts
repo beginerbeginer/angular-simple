@@ -1,5 +1,5 @@
-import { User } from '../user.model';
 import { Component, OnInit } from '@angular/core';
+
 
 
 @Component({
@@ -9,15 +9,5 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserListComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-  get users() {
-    let user1 = new User('foo');
-    let user2 = new User('bar', 'John', 'Doe', 'foo@example.com');
-    return [user1, user2]
-  }
 
 }
